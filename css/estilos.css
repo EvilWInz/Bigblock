@@ -1,0 +1,196 @@
+/*******Estilos para el encabezado***********/
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Montserrat Alternates', sans-serif;
+	}
+	header{
+		width: 100%;
+		height: 100px;
+
+	}
+
+	body{
+		background:url("../img/Gradiente-verde.jpg");
+		background-size: 100vw 100vh;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+	.capa{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: rgba(0,0,0,0.6);
+		z-index: -1;
+		top: 0;left: 0;
+	}
+	
+	.container{
+		width: 100%;
+		max-width: 1000px;
+		margin: auto;
+		overflow: hidden;
+	
+	}
+	/*******Estilos para el encabezado***********/
+	.header{
+		width: 100%;
+		height: 100px;
+		position: fixed;
+		top: 0;left: 0;
+	}
+	.container .btn-menu, .logo{
+		float: left;
+		line-height:100px;
+	}
+	.container .btn-menu label{
+		background-attachment: fixed;
+		font-size: 19px;
+		cursor: pointer;
+		padding: 11px;
+	}
+
+	.logo{
+		float: left;
+		line-height: 100px;
+	}
+	.logo a{
+		display: inline-block;
+		padding: 15px;
+		line-height: normal;
+		text-decoration: none;
+		color: #fff;
+		transition: all 0.3s ease;
+		border-bottom: 2px solid transparent;
+		font-size: 20px;
+		margin-right: 5px;
+	}
+	.logo a:hover{
+		border-bottom: 2px solid #c7c7c7;
+		padding-bottom: 5px;
+	}
+	.container .menu{
+		float: right;
+		line-height: 100px;
+	}
+	.container .menu a{
+		display: inline-block;
+		padding: 15px;
+		line-height: normal;
+		text-decoration: none;
+		color: #fff;
+		transition: all 0.3s ease;
+		border-bottom: 2px solid transparent;
+		font-size: 15px;
+		margin-right: 5px;
+	}
+	.container .menu a:hover{
+		border-bottom: 2px solid #c7c7c7;
+		padding-bottom: 5px;
+	}
+
+	/****************Menù lateral*****************/
+	#btn-menu{
+		display: none;
+		height: 20px;
+		
+	}
+
+	
+	
+	.container-menu{
+		position: fixed;
+		background: rgba(29, 112, 54, 0.301);
+		width: 100%;
+		height: 100vh;
+		top: 0;left: 0;
+		transition: all 500ms ease;
+		opacity: 0;
+		visibility: hidden;
+	}
+	#btn-menu:checked ~ .container-menu{
+		opacity: 1;
+		visibility: visible;
+	}
+	.cont-menu{
+		width: 100%;
+		max-width: 170px;
+		background: #1f201f;
+		height: 100vh;
+		position: fixed;
+		transition: all 500ms ease;
+		transform: translateX(-100%);
+	}
+	#btn-menu:checked ~ .container-menu .cont-menu{
+		transform: translateX(0%);
+	}
+	.cont-menu nav{
+		transform: translateY(15%);
+	}
+	.cont-menu nav a{
+		display: block;
+		text-decoration: none;
+		padding: 20px;
+		color: #c7c7c7;
+		border-left: 5px solid transparent;
+		transition: all 400ms ease;
+	}
+	.cont-menu nav a:hover{
+		border-left: 5px solid #c7c7c7;
+		background: #1f1f1f;
+	}
+	.cont-menu label{
+		position: absolute;
+		right: 5px;
+		top: 10px;
+		color: #fff;
+		cursor: pointer;
+		font-size: 18px;
+	}
+
+
+
+/***************TABLA.INICIO******************/
+.table, th, td{
+	text-align: center;
+	border: 2px solid rgba(0, 0, 0, 0.801);
+	color: rgb(255, 255, 255);
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	transform: translate(280px, 110px);
+	background-color: rgba(0, 51, 3, 0.356);	
+}
+
+#id_ubicacion{
+	border: 2px solid rgba(0, 0, 0, 0.801);
+	background-color: hsl(0, 0%, 0%);
+	color:white;
+}
+#idplano{
+	border: 2px solid rgba(0, 0, 0, 0.801);
+	background-color: hsl(0, 0%, 0%);
+	color:white;
+	width: 100px;
+}
+#fecha{
+	border: 2px solid rgba(0, 0, 0, 0.801);
+	background-color: hsla(0, 0%, 0%, 0.836);
+	color:white;
+	cursor: pointer;
+	width: auto;
+}
+#id-casa{
+	border: 2px solid rgba(0, 0, 0, 0.801);
+	background-color: hsl(0, 0%, 0%);
+	color:white;
+	width: 90px;
+}
+.btn-tablas{
+	background-color: rgba(0, 0, 0, 0.774);
+	color: white;
+	cursor: pointer;
+	width: 50px;
+}

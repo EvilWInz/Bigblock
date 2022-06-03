@@ -1,0 +1,126 @@
+
+/******imagen de fondo BIGBLOCK********/
+body, html {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    overflow:hidden;
+    
+  }
+  .bg-img{
+    background-image:url("../img/Gradiente-verde.jpg");  
+    text-align: center; 
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:20px;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    background-attachment: scroll;
+  }
+/******LOGIN********/
+.Btn-user{
+    display: inline;
+    margin-bottom: auto;
+    padding: none;
+    background-color: rgba(5, 8, 5, 0.534);
+    width: 45%;
+    height: 25px;
+    color: white;
+
+}
+
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -150px;	   
+    color: white;
+    font-weight: bold;    
+    z-index: 2;   
+    text-align: center;
+}
+
+.container h1{color: rgb(255, 255, 255);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bolder;    
+}
+
+.container label{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+input:focus { 
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); 
+}
+
+input { 
+	width: 72%; 
+	margin-bottom: 20px; 
+	background: rgba(0, 0, 0, 0.644);
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 10px;
+	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+}
+
+#forgetPass a{
+    margin: 15px;
+    padding: 15px;
+}
+#forgetPass a{
+    color: rgb(255, 255, 255);
+   text-decoration: underline;
+}
+#btn-container{
+    margin:30px;
+    color: rgba(0, 100, 0, 0.288)
+}
+
+.btn-bigblock{
+background-color: rgba(4, 32, 4, 0.514);
+width: 70%;
+height: 25px;
+color: white;
+}
+
+
+
+
+
+/******fondo pagina 404********/
+.img-error{
+    background:url(https://www.esan.edu.pe/images/blog/2020/04/15/1500x844-salud-construccion.jpg);
+    background-size: 120vw 120vh;
+	background-repeat: no-repeat;
+    text-align: center; 
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+/******texto********/
+h1{
+    color: rgb(0, 0, 0);
+}
+.nav12 a{
+    color: rgb(7, 85, 11);    
+}
+
+

@@ -5,6 +5,7 @@ body, html {
     height: 100%;
     margin: 0;
     overflow:hidden;
+    background-image:url("../img/Gradiente-verde.jpg"); 
     
   }
   .bg-img{
@@ -39,10 +40,13 @@ body, html {
     color: white;
     font-weight: bold;    
     z-index: 2;   
+    border-radius: 45px;
     text-align: center;
+    box-shadow: 7px 13px 37px #000;
 }
 
-.container h1{color: rgb(255, 255, 255);
+.container h1{
+    color: rgb(255, 255, 255);
     font-family: Helvetica, Arial, sans-serif;
     font-size: 32px;
     font-weight: bolder;    
@@ -84,7 +88,7 @@ input {
 }
 #forgetPass a{
     color: rgb(255, 255, 255);
-   text-decoration: underline;
+   text-decoration: none ;
 }
 #btn-container{
     margin:30px;
@@ -121,6 +125,19 @@ h1{
 }
 .nav12 a{
     color: rgb(7, 85, 11);    
+}
+/********pagina de registro de usuario******/
+ 
+.container1{
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -150px;	   
+    color: white;
+    font-weight: bold;    
+    z-index: 2;   
+    text-align: center;
+
 }
 
 
